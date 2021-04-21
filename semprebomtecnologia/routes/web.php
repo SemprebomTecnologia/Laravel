@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\ProdutoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -81,7 +82,20 @@ Route::get('blank', function () {
 
 Route::get('login', [UsuarioController::class, 'index']); 
 Route::get('Login', [UsuarioController::class, 'Login']); 
+
+/* Produtos */
+
+Route::get('Form_CadProduto', function () {
+    return view('/dashboard/CadastroProduto');
+});
+
 Route::get('AUTH/{txtUser?}/{pass?}', [UsuarioController::class, 'Login']);
+
+Route::get('insert_produto/{Id?}/{Grupo?}/{SubGrupo?}/{Descricao?}/{dataCadastro?}/{foto?}/{preco?}', [ProdutoController::class, 'Login']);
+Route::get('update_produto/{Id?}/{Grupo?}/{SubGrupo?}/{Descricao?}/{dataCadastro?}/{foto?}/{preco?}', [ProdutoController::class, 'Login']);
+Route::get('delete_produto/{Id?}/{Grupo?}/{SubGrupo?}/{Descricao?}/{dataCadastro?}/{foto?}/{preco?}', [ProdutoController::class, 'Login']);
+
+
 
 //Route::get('login', [UsuarioController::class, 'index']); 
 

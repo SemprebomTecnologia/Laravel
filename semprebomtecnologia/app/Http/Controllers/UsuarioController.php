@@ -8,7 +8,15 @@ use App\Models\Usuario;
 
 class UsuarioController extends Controller{
 
+    /*
     
+    Route::get('insert_produto/{txtUser?}/{pass?}', [UsuarioController::class, 'Login']);
+    Route::get('update_produto/{Id?}/{Grupo?}/{SubGrupo?}/{Descricao?}/{dataCadastro?}/{foto?}/{preco?}', [ ::class, 'Login']);
+    Route::get('delete_produto/{txtUser?}/{pass?}', [ ::class, 'Login']);
+
+
+
+    */
 
 
     public function index(){   
