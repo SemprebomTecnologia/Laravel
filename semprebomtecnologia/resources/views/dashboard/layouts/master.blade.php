@@ -118,7 +118,7 @@
                     <h1 class="h3 mb-4 text-gray-800">@yield('continue')</h1>
 
                     
-                    @include('dashboard/layouts/Form_CadProduto') 
+                    @include('dashboard/layouts/FormCadProduto') 
                     
 
                 </div>
