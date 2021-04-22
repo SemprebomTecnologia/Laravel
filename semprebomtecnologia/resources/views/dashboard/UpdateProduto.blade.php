@@ -2,8 +2,8 @@
 
 @section('EmpresaNome', 'Nome Empresa ®')
 
-@section('pageName','Cadastrar Produto' )
-@section('continue', 'Cadastrando Produto')
+@section('pageName','Atualizar Produto' )
+@section('continue', 'Atualizando Produto')
 
 @section('FormCadProduto')
     @include('dashboard/layouts/FormCadProduto') 

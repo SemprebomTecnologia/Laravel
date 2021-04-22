@@ -89,11 +89,19 @@ Route::get('Form_CadProduto', function () {
     return view('/dashboard/CadastroProduto');
 });
 
+Route::get('update_produto', function () {
+    return view('/dashboard/UpdateProduto');
+});
+
+Route::get('delete_produto', function () {
+    return view('/dashboard/DeleteProduto');
+});
+
 Route::get('AUTH/{txtUser?}/{pass?}', [UsuarioController::class, 'Login']);
 
-Route::get('insert_produto/{Id?}/{Grupo?}/{SubGrupo?}/{Descricao?}/{dataCadastro?}/{foto?}/{preco?}', [ProdutoController::class, 'Login']);
-Route::get('update_produto/{Id?}/{Grupo?}/{SubGrupo?}/{Descricao?}/{dataCadastro?}/{foto?}/{preco?}', [ProdutoController::class, 'Login']);
-Route::get('delete_produto/{Id?}/{Grupo?}/{SubGrupo?}/{Descricao?}/{dataCadastro?}/{foto?}/{preco?}', [ProdutoController::class, 'Login']);
+Route::get('insert_produto/{NameProd?}/{GroupProd?}/{SubGroupProd?}/{DescricaoProd?}/{PhotoFile?}', [ProdutoController::class, 'insert_produto']);
+Route::get('update_produto/{NameProd?}/{GroupProd?}/{SubGroupProd?}/{DescricaoProd?}/{PhotoFile?}', [ProdutoController::class, 'update_produto']);
+Route::get('delete_produto/{NameProd?}/{GroupProd?}/{SubGroupProd?}/{DescricaoProd?}/{PhotoFile?}', [ProdutoController::class, 'delete_produto']);
 
 
 

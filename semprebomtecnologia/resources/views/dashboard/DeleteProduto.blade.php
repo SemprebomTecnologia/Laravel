@@ -2,10 +2,10 @@
 
 @section('EmpresaNome', 'Nome Empresa ®')
 
-@section('pageName','Cadastrar Produto' )
-@section('continue', 'Cadastrando Produto')
+@section('pageName','Deletar Produto' )
+@section('continue', 'Deletando Produto')
 
-@section('FormCadProduto')
+@section('FormDelProduto')
     @include('dashboard/layouts/FormCadProduto') 
 @stop
 
