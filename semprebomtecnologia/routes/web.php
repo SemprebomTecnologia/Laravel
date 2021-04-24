@@ -71,6 +71,10 @@ Route::get('UsuarioView', function () {
     return view('UsuarioView');
 });
 
+Route::get('showProd', function () {
+    return view('UsuarioView');
+});
+
 Route::get('principal', function () {
     return view('/dashboard/principal');
 });

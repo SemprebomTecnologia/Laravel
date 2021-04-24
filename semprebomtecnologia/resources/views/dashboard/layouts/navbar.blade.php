@@ -28,10 +28,9 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+        <a class="nav-link " href="" data-toggle="collapse" data-target="#collapseTwo"
             aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-fw fa-cog"></i>
-            <span>Produtos</span>
+            <i class="fas fa-fw fa-cog"></i>             <span>Produtos</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
@@ -39,6 +38,7 @@
                 <a class="collapse-item" href="Form_CadProduto">Inserir</a>
                 <a class="collapse-item" href="update_produto">Alterar</a>
                 <a class="collapse-item" href="delete_produto">Deletar</a>
+                <a class="collapse-item" href="javascript:alert('Hello World!');">javascript</a>
             </div>
         </div>
     </li>
