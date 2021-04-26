@@ -168,9 +168,9 @@
 
   </head>
   <body>
-
+    @include('layouts\navbar')
 	<!--- Navbar --->
-    <?php require_once('navbar.php') ?>
+    
 	<!--# Navbar #-->
 
     <div class="container">
