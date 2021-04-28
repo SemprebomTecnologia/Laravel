@@ -86,13 +86,8 @@ Route::get('blank', function () {
 
 Route::get('login', [UsuarioController::class, 'index']); 
 Route::get('Login', [UsuarioController::class, 'Login']); 
-Route::get('AUTH/{txtUser?}/{pass?}', [UsuarioController::class, 'Login']);
 
 /* Produtos */
-
-
-Route::get('Produto', [ProdutoController::class, 'ProdutoindexModel']); 
-
 
 Route::get('Form_CadProduto', function () {
     return view('/dashboard/CadastroProduto');
@@ -106,7 +101,7 @@ Route::get('delete_produto', function () {
     return view('/dashboard/DeleteProduto');
 });
 
-
+Route::get('AUTH/{txtUser?}/{pass?}', [UsuarioController::class, 'Login']);
 
 Route::get('insert_produto/{NameProd?}/{GroupProd?}/{SubGroupProd?}/{DescricaoProd?}/{PhotoFile?}', [ProdutoController::class, 'insert_produto']);
 Route::get('update_produto/{NameProd?}/{GroupProd?}/{SubGroupProd?}/{DescricaoProd?}/{PhotoFile?}', [ProdutoController::class, 'update_produto']);

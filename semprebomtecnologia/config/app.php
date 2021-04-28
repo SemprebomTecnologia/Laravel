@@ -20,7 +20,7 @@ return [
     | Application Environment
     |--------------------------------------------------------------------------
     |
-    | This value determines the "environment"  "production"your application is currently
+    | This value determines the "environment" your application is currently
     | running in. This may determine how you prefer to configure various
     | services the application utilizes. Set this in your ".env" file.
     |
@@ -52,11 +52,9 @@ return [
     |
     */
 
-    // 'url' => env('APP_URL', 'http://localhost'),
-    'url' => env('APP_URL', 'http://semprebomtecnologia.com.br'),
+    'url' => env('APP_URL', 'http://localhost'),
 
-    // 'asset_url' => env('ASSET_URL', null),
-    'asset_url' => env('ASSET_URL', 'http://semprebomtecnologia.com.br'),
+    'asset_url' => env('ASSET_URL', null),
 
     /*
     |--------------------------------------------------------------------------
@@ -82,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'pt',
+    'locale' => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -95,7 +93,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'pt',
+    'fallback_locale' => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -108,7 +106,7 @@ return [
     |
     */
 
-    'faker_locale' => 'pt_BR',
+    'faker_locale' => 'en_US',
 
     /*
     |--------------------------------------------------------------------------
