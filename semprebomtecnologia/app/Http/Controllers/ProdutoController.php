@@ -3,9 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Produto;
+
 
 class ProdutoController extends Controller
 {
+    public function ProdutoindexModel(){
+        //acessando o Modelo de contato            
+        $prod = new Produto;
+        $str_prod = $prod->lista();
+        echo ("O nome do Modelo é .$str_prod->nome, seu sobrenome é $str_prod->sobrenome ");
+    }
+
+
+
+
     public function busca_produto(Request $request){
         //dd($request);
         //var_dump($_REQUEST);
