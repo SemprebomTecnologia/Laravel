@@ -36,14 +36,13 @@
     </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <script>
-    var myCarousel = document.querySelector('#myCarousel')
-    var carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 2000,
-    wrap: false
-    })
-
-</script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleDark')
+        var carousel = new bootstrap.Carousel(carouselExampleDark, {
+            interval: 2000,
+            wrap: false
+        })
+    </script>
 
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
