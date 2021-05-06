@@ -3,63 +3,30 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
+
                     <div class="col-md-4 ">
-                        <div class="logo-part-esq-dir  justify-content-md-center ">
-                            <img src="imgs\Camargo-fundo-transparente.png" class="w-50 logo-footer">
-                        </div>
-                    </div>
-
-                    <div class="col-md-4  justify-content-md-center">
-                        <div class="logo-part">
-                            <h6>Camargo Advocacia </h6>
+                        <div class=" d-flex justify-content-center" style="align-items: center;">
                             <p>Janiopolis - Pr </p>
-                            <p>Avenida Parana nº 455 </p>
+                            <!-- <p>Avenida Parana nº 455 </p> -->
                         </div>
-
                     </div>
 
-                    <div class="col-md-4  justify-content-md-center">
-                        <div class="logo-part">
-                            <p class="copyright"> Copyright © SemprebomTecnologia</p>    
+                    <div class="col-md-4 ">
+                        <div class="  d-flex justify-content-center" style="align-items: center;">
+                            <img src="imgs\Camargo-fundo-transparente2.png" class="w-50 logo-footer">
                         </div>
+                    </div>
 
+                    <div class="col-md-4 ">
+                        <div class=" d-flex justify-content-center" style="align-items: center;">
+                            <p class="copyright"> Copyright © SemprebomTecnologia</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-6 px-4">
-                        <h6> Help us</h6>
-                        <div class="row ">
-                            <div class="col-md-6">
-                                <ul>
-                                    <li> <a href="#"> Home</a> </li>
-                                    <li> <a href="#"> About</a> </li>
-                                    <li> <a href="#"> Service</a> </li>
-                                    <li> <a href="#"> Team</a> </li>
-                                    <li> <a href="#"> Help</a> </li>
-                                    <li> <a href="#"> Contact</a> </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6 px-4">
-                                <ul>
-                                    <li> <a href="#"> Cab Faciliy</a> </li>
-                                    <li> <a href="#"> Fax</a> </li>
-                                    <li> <a href="#"> Terms</a> </li>
-                                    <li> <a href="#"> Policy</a> </li>
-                                    <li> <a href="#"> Refunds</a> </li>
-                                    <li> <a href="#"> Paypal</a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
         </div>
     </div>
-    </div>
+    
 
 
 
