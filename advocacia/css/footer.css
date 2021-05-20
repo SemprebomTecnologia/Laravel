@@ -1,0 +1,44 @@
+@media only screen and (min-width: 575.98px) {
+    
+    #logo-part-esq-dir{
+        display: none;
+    }
+
+    #carouselExampleDark{
+        /* margin-bottom: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-left: 15px; */
+        margin: 0 auto; 
+        width: 280px;        
+        max-width: 280px;
+    } 
+  
+}
+
+#carouselExampleDark{    
+    width: 50%;   
+    height: 380px;
+    margin: 10px 10px;    
+} 
+
+
+footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    background-color: royalblue;
+}
+
+
+.logo-part {    
+    height: 100%;
+    align-items: center;
+    }
+
+.logo-part-esq-dir {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    height: 100%;
+    
+    }
