@@ -9,5 +9,6 @@
     <a href="#" class="w3-bar-item w3-button w3-hover-black">Escritorio</a>
     <a href="#" class="w3-bar-item w3-button w3-hover-black">Artigos</a>
     <a href="#" class="w3-bar-item w3-button w3-hover-black">Agende sua reuni&atilde;o</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-black">Contato</a>
+    <a href="contato.php" class="w3-bar-item w3-button w3-hover-black">Contato</a>
 </nav>
+

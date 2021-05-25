@@ -87,27 +87,33 @@ h6 {
         id="myOverlay"></div>
 
     <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-    <div class="w3-main" style="margin-left:150px;  ; margin-right: 150px; background-color: rebeccapurple;">
+    <div class="w3-main"
+        style="margin-left:150px;  ; margin-right: 150px;
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,95,1) 0%, rgba(142,217,156,1) 0%, rgba(0,212,255,0.9331933456976541) 84%);">
 
-        <div class="w3-row w3-padding-64 d-flex justify-content-center">        
+        <div class="w3-row w3-padding-64 d-flex justify-content-center">
             <div class="w3-twothird w3-container d-flex justify-content-center">
-                <div class="w3-half w3-blue-grey w3-container d-flex justify-content-center" style="height:100%">
+                <div class="d-flex justify-content-center" style="height:100%">
+                    <?php include_once('layouts/carousel.php'); ?>
+                </div>
 
-                    <div class="w3-padding-64 w3-center">
-                        <h1>About Me</h1>
-                        <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
-                        <div class="w3-left-align w3-padding-large">
-                            <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
-                                diam non
-                                fringilla.</p>
-                            <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
-                                diam non
-                                fringilla.</p>
-                        </div>
+                <div class="w3-padding-64 w3-center">
+                    <h1>About Me</h1>
+
+                    <!-- <img src="imgs/logonav.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%"> -->
+                    <div class="w3-left-align w3-padding-large">
+                        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+                            diam non
+                            fringilla.</p>
+                        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+                            diam non
+                            fringilla.</p>
                     </div>
                 </div>
+
             </div>
         </div>
+
 
 
         <!-- END MAIN -->
@@ -115,8 +121,20 @@ h6 {
 
     <?php include_once('layouts/footer.php'); ?>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+
 
     <script>
+    var myCarousel = document.querySelector('#carouselExampleDark')
+    var carousel = new bootstrap.Carousel(carouselExampleDark, {
+        interval: 2000,
+        wrap: false
+    })
+
+
     // Get the Sidebar
     var mySidebar = document.getElementById("mySidebar");
 

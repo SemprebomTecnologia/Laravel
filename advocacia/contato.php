@@ -88,6 +88,7 @@ h6 {
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contato</span></div>
                 <h3>Endereço</h3>                
                 <h5>Avenida Paraná , 855 , Centro </h5>                
+                <h6>Por favor, entre em contato sempre que precisar. Obrigado(a)!</h6>
                 <h6>Swing by for a cup of coffee, or whatever.</h6>
                 
                 <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>Janiopolis - PR</p>

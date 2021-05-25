@@ -22,10 +22,10 @@
     <div class="container ">
         <div class="row">
             <div class="col-md-12">
-                <div class="row"  style="align-items: center; background-color:green;">
+                <div class="row"  style="align-items: center; ">
 
                     <div class="col-md-4 ">
-                        <div class=" d-flex justify-content-center " style="align-items: center; background-color:red;">
+                        <div class=" d-flex justify-content-center " style="align-items: center;">
                             <h3>Janiopolis - Pr </h3>
                         </div>
                     </div>
