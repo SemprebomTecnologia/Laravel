@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 
@@ -18,16 +19,7 @@
 
 
 <style>
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Roboto", sans-serif;
-}
+
 
 
 
@@ -93,14 +85,10 @@ h6 {
 
         <div class="w3-row w3-padding-64 d-flex justify-content-center">
             <div class="w3-twothird w3-container d-flex justify-content-center">
-                <div class="d-flex justify-content-center" style="height:100%">
-                    <?php include_once('layouts/carousel.php'); ?>
-                </div>
-
                 <div class="w3-padding-64 w3-center">
                     <h1>About Me</h1>
 
-                    <!-- <img src="imgs/logonav.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%"> -->
+                    <img src="imgs/logonav.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
                     <div class="w3-left-align w3-padding-large">
                         <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
                             diam non
@@ -110,7 +98,6 @@ h6 {
                             fringilla.</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
