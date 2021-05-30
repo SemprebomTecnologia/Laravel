@@ -4,82 +4,42 @@
 
 
 
+<header id="headerMenu">
 
-<div class="w3-top" >
-        <div class="w3-bar w3-theme w3-top w3-left-align w3-large  d-flex justify-content-center">
-            <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1"  href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-            <a href="index.php" class="w3-bar-item w3-button w3-theme-l1">Menu</a>
-            <a href="index.php" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">&Aacute;reas de Atua&ccedil;&atilde;o</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Escritorio</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Artigos</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Agende sua reuni&atilde;o</a>
-            <a href="contato.php" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contato</a>
-        </div>
-    </div>
 
- <!--
-<header class="site-header sticky-top py-1  ">
+      <nav class="navbar navbar-expand-custom navbar-mainbg">
+            <a class="navbar-brand navbar-logo" href="#"><i class="fas fa-balance-scale">  Camargo Advocacia </i></a> 
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white"></i>
+            </button>
 
-    <nav class="navbar navbar-expand-lg d-flex justify-content-center bg-dark navbar-dark">
-        <a class="navbar-brand" href="#"></a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">  
+                    <li class="nav-item ">  
+                        <a class="nav-link" href="index.php"><i class="fas fa-laptop-house"></i>Home</a>
+                    </li>                
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#><i class="fa fa-address-book"></i>&Aacute;reas de Atua&ccedil;&atilde;o</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-briefcase"></i>Escritorio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="far fa-newspaper"></i>Artigos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-handshake"></i>Agende sua reuni&atilde;o</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.php"><i class="fa fa-copy"></i>Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="home">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">&Aacute;reas de Atua&ccedil;&atilde;o</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Escritorio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Artigos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Agende sua reuni&atilde;o</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <nav class="navbar navbar-expand-lg  d-flex justify-content-center  bg-white ">
-         
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="home">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">&Aacute;reas de Atua&ccedil;&atilde;o</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Escritorio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Artigos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Agende sua reuni&atilde;o</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav> 
 
-</header>-->
+</header>

@@ -1,41 +1,68 @@
-<footer class="container-fluid">
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row" style="align-items: center; ">
+<!-- Footer -->
+<section id="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left clearfix">
+            <div class="col-xs-12 col-sm-4 col-md-4  ">
+                <h5>Endereco</h5>
+                <ul class="list-unstyled quick-links">
+                    <li><i class="bi bi-pin-map"> Jani&oacute;polis - PR </i></li>
+                    <li><i class="bi bi-house-door"> Rua: Tiradentes, Nº 535</i></li>
+                    <li><i class="bi bi-geo-alt">CEP: 87380-000 - Janiópolis/PR</i></li>
+                </ul>
+            </div>
 
-                    <div class="col-md-4 ">
-                        <div class="justify-content-center text-white" style="align-items: center;">
-                            <i class="bi bi-pin-map">  Jani&oacute;polis - PR   </i>
-                            <div class="clearfix"></div>
-                            <i class="bi bi-house-door"> Rua: Tiradentes, Nº 535</i>
-                            <div class="clearfix"></div> 
-                            <i class="bi bi-whatsapp"> +55 44 9991-2505</i>                            
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 ">
-                        <div class="d-flex justify-content-center" style="align-items: center;">
-                            <img src="imgs\Camargo-fundo-transparente2.png" class="w-50 logo-footer">
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 ">
-                        <div class="w3-xxlarge w3-padding-16 justify-content-center ">
-                            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                            <i class="fa fa-instagram w3-hover-opacity"></i>
-                            <i class="fa fa-snapchat w3-hover-opacity"></i>
-                            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                            <i class="fa fa-twitter w3-hover-opacity"></i>
-                            <i class="fa fa-linkedin w3-hover-opacity"></i>
-
-                        </div>
-                        <h6 class="w1-margin w1-xlarge"><a class="text-white" href="wwww.semprebomtecnologia.com.br"> Copyright ©
-                                SemprebomTecnologia<a></h6>
+            <div class="col-xs-12 col-sm-4 col-md-4  float-right">
+                <h5>Noticias</h5>
+                <div class="card">
+                    <div class="card-body text-dark">
+                        <h5 class="card-title text-dark ">Titulo da Noticias</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                 </div>
             </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4  float-right">
+                <h5>Deixe nos uma Menssagem</h5>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="#"><i class="fas fa-envelope-open-text"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p><u><a href="http://semprebomtecnologia.com.br/">SemprebomTecnologia Corporation</a></u> </p>
+
+                <p class="h6">© All right Reversed.<a class="text-green ml-2"
+                        href="http://semprebomtecnologia.com.br target=" #">SemprebomTecnologia</a></p>
+            </div>
+            <hr>
         </div>
     </div>
-    <footer>
+</section>

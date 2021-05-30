@@ -5,63 +5,29 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
 <link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/navbar.css">
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--JS Slides -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" > </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
 
-
-
-<style>
-
-
-
-
-@media only screen and (max-width:200px) {
-
-    .w3-sidebar.w3-collapse {
-        display: none !important;
-    }
-
-    /* .w3-top,
-    .w3-bottom {
-        position: relative;
-        width: 100%;
-        z-index: 1;
-    } */
-
-}
-
-@media only screen and (min-width:993px) {
-
-    .w3-sidebar.w3-collapse {
-        display: none !important;
-    }
-
-}
-
-.w3-top,
-.w3-bottom {
-    position: relative;
-    width: 100%;
-    z-index: 1;
-}
-
-.w3-sidebar {
-    z-index: 3;
-    width: 250px;
-    top: 43px;
-    bottom: 0;
-    height: inherit;
-
-}
-</style>
 
 <body>
 
@@ -69,84 +35,104 @@
 
 
 
-    <?php include_once('layouts/sidebar.php'); ?>
+    <div class="splide">
+        <div class="splide__track d-flex justify-content-center">
+            <ul class="splide__list d-flex justify-content-center">
 
-
-
-
-    <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
-        id="myOverlay"></div>
-
-    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-    <div class="w3-main"
-        style="margin-left:150px;  ; margin-right: 150px;
-     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,95,1) 0%, rgba(142,217,156,1) 0%, rgba(0,212,255,0.9331933456976541) 84%);">
-
-        <div class="w3-row w3-padding-64 d-flex justify-content-center">
-            <div class="w3-twothird w3-container d-flex justify-content-center">
-                <div class="w3-padding-64 w3-center">
-                    <h1>About Me</h1>
-
-                    <img src="imgs/logonav.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
-                    <div class="w3-left-align w3-padding-large">
-                        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
-                            diam non
-                            fringilla.</p>
-                        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
-                            diam non
-                            fringilla.</p>
-                    </div>
+                <div class="splide__slide d-flex justify-content-center">
+                    <img src="imgs\slider1.jpg" class="img-fluid" alt="...">
                 </div>
-            </div>
+
+                <div class="splide__slide d-flex justify-content-center">
+                    <img src="imgs\slider2.jpg" class="img-fluid" alt="...">
+                </div>
+
+                <div class="splide__slide d-flex justify-content-center">
+                    <img src="imgs\slider3.jpg" class="img-fluid" alt="...">
+                </div>
+
+                <div class="splide__slide d-flex justify-content-center">
+                    <img src="imgs\slider1.jpg" class="img-fluid" alt="...">
+                </div>
+
+            </ul>
         </div>
-
-
-
-        <!-- END MAIN -->
     </div>
 
-    <?php include_once('layouts/footer.php'); ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-    </script>
+
+
+
+    <?php include_once('layouts/footer.php'); ?>
 
 
 
     <script>
-    var myCarousel = document.querySelector('#carouselExampleDark')
-    var carousel = new bootstrap.Carousel(carouselExampleDark, {
-        interval: 2000,
-        wrap: false
-    })
 
-
-    // Get the Sidebar
-    var mySidebar = document.getElementById("mySidebar");
-
-    // Get the DIV with overlay effect
-    var overlayBg = document.getElementById("myOverlay");
-
-    //Toggle between showing and hiding the sidebar, and add overlay effect
-
-    function w3_open() {
-        if (mySidebar.style.display === 'block') {
-            mySidebar.style.display = 'none';
-            overlayBg.style.display = "none";
-        } else {
-            mySidebar.style.display = 'block';
-            overlayBg.style.display = "block";
+        var elms = document.getElementsByClassName('splide');
+        for (var i = 0, len = elms.length; i < len; i++) {
+            new Splide(elms[i]).mount();
         }
-    }
 
-    //Close the sidebar with the close button
 
-    function w3_close() {
-        mySidebar.style.display = "none";
-        overlayBg.style.display = "none";
-    }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            new Splide('.splide').mount();
+        });
+
+        // ---------Responsive-navbar-active-animation-----------
+        function test() {
+            var tabsNewAnim = $('#navbarSupportedContent');
+            var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
+            var activeItemNewAnim = tabsNewAnim.find('.active');
+            var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
+            var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
+            var itemPosNewAnimTop = activeItemNewAnim.position();
+            var itemPosNewAnimLeft = activeItemNewAnim.position();
+
+            $(".hori-selector").css({
+                "top": itemPosNewAnimTop.top + "px",
+                "left": itemPosNewAnimLeft.left + "px",
+                "height": activeWidthNewAnimHeight + "px",
+                "width": activeWidthNewAnimWidth + "px"
+            });
+
+            $("#navbarSupportedContent").on("click", "li", function(e) {
+                $('#navbarSupportedContent ul li').removeClass("active");
+                $(this).addClass('active');
+                var activeWidthNewAnimHeight = $(this).innerHeight();
+                var activeWidthNewAnimWidth = $(this).innerWidth();
+                var itemPosNewAnimTop = $(this).position();
+                var itemPosNewAnimLeft = $(this).position();
+                $(".hori-selector").css({
+                    "top": itemPosNewAnimTop.top + "px",
+                    "left": itemPosNewAnimLeft.left + "px",
+                    "height": activeWidthNewAnimHeight + "px",
+                    "width": activeWidthNewAnimWidth + "px"
+                });
+            });
+        }
+        $(document).ready(function() {
+            setTimeout(function() {
+                test();
+            });
+        });
+        $(window).on('resize', function() {
+            setTimeout(function() {
+                test();
+            }, 500);
+        });
+        $(".navbar-toggler").click(function() {
+            setTimeout(function() {
+                test();
+            });
+        });
     </script>
+
+
+
+
+
 
 </body>
 
