@@ -8,7 +8,9 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -19,12 +21,12 @@
 
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/navbar.css">
-
+<link rel="stylesheet" type="text/css" href="css/whatsapp.css">
 
 <!--JS Slides -->
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" > </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"> </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
@@ -35,21 +37,30 @@
     <?php include_once('layouts/navbar.php'); ?>
 
     <!-- Contact Container -->
-    <div class="w3-container w3-padding-32 w3-theme-l5" id="contact">
-    <div class="col-md-12 d-flex justify-content-center">
-        <div class="col-md-6" >
-            <div class="w3-col m6">
-                <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contato</span></div>
-                <h3>Endereço</h3>                
-                <h5>Avenida Paraná , 855 , Centro </h5>                
-                <h6>Por favor, entre em contato sempre que precisar. Obrigado(a)!</h6>
-                <h6>Swing by for a cup of coffee, or whatever.</h6>
-                
-                <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>Janiopolis - PR</p>
-                <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> +00 1515151515</p>
-                <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> test@test.com</p>
+    <div class="container padding-32">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <div class="row ">
+                    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contato</span>
+                        <h5>Endereco</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><i class="bi bi-pin-map"> Jani&oacute;polis - PR </i></li>
+                            <li><i class="bi bi-house-door"> Rua: Tiradentes, Nº 535</i></li>
+                            <li><i class="bi bi-geo-alt">CEP: 87380-000 - Janiópolis/PR</i></li>
+                            <li><i class="fas fa-coffee"> Swing by for a cup of coffee, or whatever.</i></li>
+                        </ul>
+
+                        <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>Janiopolis - PR</p>
+                        <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> +00 1515151515</p>
+                        <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> test@test.com</p>
+                    </div>
+                </div>
             </div>
-            <div class="w3-col m6">
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 ">
+
                 <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
                     <div class="w3-section">
                         <label>Nome</label>
@@ -64,13 +75,21 @@
                         <input class="w3-input" type="text" name="Message" required>
                     </div>
                     <input class="w3-check" type="checkbox" checked name="Like">
-                    <label>Desejo Receber um Feed Semanal  </label>
-                    <button type="submit" class="w3-button w3-right w3-theme">Enviar</button>
+                    <label>Desejo Receber um Feed Semanal </label>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
+
             </div>
         </div>
+
     </div>
-    </div>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <a href="https://api.whatsapp.com/send?phone=554499912505&text=Olá, Seja bem vindo a Camargo Advocacia, em que posso te ajudar? Logo iremos respondê-lo."
+        class="float" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
 
 
     <?php include_once('layouts/footer.php'); ?>
