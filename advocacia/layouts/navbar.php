@@ -19,17 +19,17 @@
                     <a class="nav-link" href="index.php"><i class="fas fa-laptop-house"></i>Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#><i class=" fa fa-address-book"></i>&Aacute;reas de
+                    <a class="nav-link" href="areas.php"><i class=" fa fa-address-book"></i>&Aacute;reas de
                         Atua&ccedil;&atilde;o</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-briefcase"></i>Escritorio</a>
+                    <a class="nav-link" href="escritorio.php"><i class="fas fa-briefcase"></i>Escritorio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="far fa-newspaper"></i>Artigos</a>
+                    <a class="nav-link" href="artigos.php"><i class="far fa-newspaper"></i>Artigos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-handshake"></i>Agende sua reuni&atilde;o</a>
+                    <a class="nav-link" href="agenda.php"><i class="fas fa-handshake"></i>Agende sua reuni&atilde;o</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contato.php"><i class="fa fa-copy"></i>Contato</a>
