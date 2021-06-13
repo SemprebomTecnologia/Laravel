@@ -85,11 +85,6 @@
 
     </div>
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
-    <a href="https://api.whatsapp.com/send?phone=554499912505&text=Olá, Seja bem vindo a Camargo Advocacia, em que posso te ajudar? Logo iremos respondê-lo."
-        class="float" target="_blank">
-        <i class="fab fa-whatsapp my-float"></i>
-    </a>
 
 
 
