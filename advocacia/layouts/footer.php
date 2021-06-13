@@ -1,4 +1,12 @@
 <!-- Footer -->
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+<a href="https://api.whatsapp.com/send?phone=554499912505&text=Olá, Seja bem vindo a Camargo Advocacia, em que posso te ajudar? Logo iremos respondê-lo." class="float" target="_blank">
+    <i class="fab fa-whatsapp my-float"></i>
+</a>
+
+
+
 <section id="footer">
     <div class="container">
         <div class="row text-center text-xs-center text-sm-left text-md-left clearfix">
@@ -27,8 +35,7 @@
 
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
 
                 <div class="mb-3">
@@ -59,8 +66,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                 <p><u><a href="http://semprebomtecnologia.com.br/">SemprebomTecnologia Corporation</a></u> </p>
 
-                <p class="h6">© All right Reversed.<a class="text-green ml-2"
-                        href="http://semprebomtecnologia.com.br target=" #">SemprebomTecnologia</a></p>
+                <p class="h6">© All right Reversed.<a class="text-green ml-2" href="http://semprebomtecnologia.com.br target=" #">SemprebomTecnologia</a></p>
             </div>
             <hr>
         </div>

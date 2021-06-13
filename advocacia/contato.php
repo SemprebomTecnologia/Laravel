@@ -19,6 +19,7 @@
 <!-- Link pra o Form de contato -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<link rel="stylesheet" type="text/css" href="css/html.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/navbar.css">
 <link rel="stylesheet" type="text/css" href="css/whatsapp.css">
