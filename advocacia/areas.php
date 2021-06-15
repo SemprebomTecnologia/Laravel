@@ -30,7 +30,8 @@
 
 
 <body>
-
+    <p> alerrado no notebook pra vermos a versao </p>
+    
     <?php include_once 'layouts/navbar.php'; ?>
 
     <?php include_once 'layouts/area.php'; ?>
