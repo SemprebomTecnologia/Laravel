@@ -23,7 +23,7 @@
                         Atua&ccedil;&atilde;o</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="escritorio.php"><i class="fas fa-briefcase"></i>Escritorio</a>
+                    <a class="nav-link" href="empresa.php"><i class="fas fa-briefcase"></i>Escritorio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="artigos.php"><i class="far fa-newspaper"></i>Artigos</a>

@@ -1,11 +1,12 @@
-html {
-  font-size: 1rem;
+@font-face {
+  font-family: 'GothamHTF-Light';
+  src: url('fonts/GothamHTF-Light.eot');
 }
 
-p{
-  
-  text-align: justify;
-  font-family: cursive;
+p , h1,h2  {
+  /*font-family: GothamHTF-Light  ;*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  color:red;
 }
 
 @include media-breakpoint-up(sm) {
@@ -21,7 +22,3 @@ p{
 }
 
 @include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
