@@ -1,0 +1,50 @@
+<?php
+
+	//require("../adodb/adodb.inc.php");
+	// This is the default value set in php.ini
+	//error_reporting(E_ALL ^ E_NOTICE);
+	
+	// Report all PHP errors
+	//error_reporting(E_ALL);
+	
+	// Same as error_reporting(E_ALL);
+	//ini_set('error_reporting', E_ALL);
+		
+	define("hostname","sisfacil.mysql.uhserver.com");
+	define("userID","adminsys");
+	define("pass","Semprebom@281016");
+	define("database","sisfacil"); 
+
+	
+	class Conectar{
+
+	   function __construct(){
+	       $this->ConectaBD();
+	   }
+ 
+
+	   function ConectaBD() {	
+			require("../adodb/adodb.inc.php"); 
+			
+				
+			//$driver = 'mysqli';
+			$db = newAdoConnection('mysqli');
+			$db->pconnect(hostname, userID, pass, database );
+	
+			
+			
+			if ($db->isConnected() ){
+				echo "conectado ao banco de Dados <br> ";	
+				$this->$_conn = $db;
+				return $this->$_conn;	
+					
+			}else {
+				$e = $db->errorMsg();
+				echo 'Erro ao Conectar ao banco de dados <br> '.$e ;		
+				return FALSE;
+			
+			}
+		}
+
+	}	
+?>

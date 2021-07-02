@@ -1,0 +1,16 @@
+<?php
+
+class Usuario extends Conectar{
+
+  public $nome;
+	
+  public	function verificaLogin() {
+		echo 'entrou verificaLogin';
+		
+	};
+
+} // end of usuario
+
+
+ 
+?>

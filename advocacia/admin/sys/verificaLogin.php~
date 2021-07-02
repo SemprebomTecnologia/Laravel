@@ -1,0 +1,41 @@
+
+<?php
+
+	/* Habilita a exibição de erros */
+	/* Informa o nível dos erros que serão exibidos */
+	error_reporting(E_ALL);
+	/* Habilita a exibição de erros */
+	ini_set("display_errors", 1);	
+	
+	function Conectar() {	
+		require("adodb/adodb.inc.php"); 
+	
+		define("hostname","sisfacil.mysql.uhserver.com");
+		define("userID","adminsys");
+		define("pass","Semprebom@a81016");
+		define("database","sisfacil");
+			
+		//$driver = 'mysqli';
+		$db = newAdoConnection('mysqli');
+		$db->connect(hostname, userID, pass, database );
+		$result = $db->execute('select * from usuario');
+		var_dump($result);				
+		
+		if (!$db->isConnected() ){
+			echo "conectado ao banco de Dados <br> ";		
+			return $db;				
+		}else {
+			$e = $db->errorMsg();
+			echo 'Erro ao Conectar ao banco de dados <br> '.$e ;		
+			return FALSE;
+		
+		}
+		
+				
+	}
+
+	
+
+var_dump(Conectar());
+?>
+

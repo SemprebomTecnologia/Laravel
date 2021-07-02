@@ -1,0 +1,21 @@
+<?php
+
+class Usuario  { //extends Conectar {
+
+  public $nome;
+  
+  	function __construct(){
+       verificaLogin();
+   }
+	
+  function verificaLogin() {
+		echo 'entrou verificaLogin';
+		
+	};
+
+} // end of usuario
+
+ $a = new Usuario();
+ $a->verificaLogin();
+ 
+?>
