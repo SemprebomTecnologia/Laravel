@@ -1,6 +1,4 @@
-<div class="container marketing">
-
-
+<div class="container marketing"  background-image="">
     <!-- Three columns of text below the carousel -->
     <div class="row">
         <div class="col-lg-4">
