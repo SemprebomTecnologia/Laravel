@@ -30,35 +30,22 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="col-xs-12 col-sm-4 col-md-4  float-right">
 
-            <div class="container">
-                <div class="scroller">
-                    <div class="inner">
-                        <p>A solução na medida certa para seu negocio</p>
-                        <p>I record them in my home studio.</p>
-                        <p>But my real goal is to <a class="blue">make</a> <a class="blueb">music</a>.</p>
+                <div class="container">
+                    <div class="scroller">
+                        <div class="inner">
+                            <p>A solução na medida certa para seu negocio</p>
+                            <p>I record them in my home studio.</p>
+                            <p>But my real goal is to <a class="blue">make</a> <a class="blueb">music</a>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-       
 
-        <div class="col-xs-12 col-sm-4 col-md-4  float-right">
-            <h5>Deixe nos uma Menssagem</h5>
 
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-            </div>
-
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-    </div>
+    </div>  
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">

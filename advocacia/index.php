@@ -16,8 +16,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 
 <link rel="stylesheet" type="text/css" href="css/html.css">
-<link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/navbar.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/scroll.css">
 <link rel="stylesheet" type="text/css" href="css/whatsapp.css">
 
 
