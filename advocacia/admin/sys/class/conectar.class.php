@@ -18,7 +18,7 @@
 
         public static final  function ConectaBD() {
             
-            $filename = $_SERVER['DOCUMENT_ROOT'].'/sisfacilphp7/admin/sys/adodb/adodb.inc.php';
+            $filename = $_SERVER['DOCUMENT_ROOT'].'/admin/sys/adodb/adodb.inc.php';
             
             
             if (file_exists($filename)) {
